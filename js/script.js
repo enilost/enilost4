@@ -47,7 +47,6 @@ $(function(){
         if($(window).width() >= 768){
             $('.bayan').slideDown();
             $('.fa-angle-down').addClass('rotate-arrow');
-            //console.log('else');
         }else{
             $('.bayan').slideUp();
             $('.fa-angle-down').removeClass('rotate-arrow');
@@ -537,9 +536,6 @@ $(function(){
                     cart.removeClass('active-cart');
                 }
             }
-        }
-        if ($('.burger-div').hasClass('active-burger') && $('.header__cart__icon-link a').is(e.target) || $('.header__cart__icon-link i').is(e.target)){
-            console.log('karzina');
         }
     });
  
